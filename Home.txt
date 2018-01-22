@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-22T09:08:34+01:00
+
+====== Home ======
+Created poniedziałek 22 styczeń 2018
+
+***tabele** -składaja sie z pola i wierszy 
+kolumny są to pola 
+***pole-** zawiera dane tego samego typu np.liczby,tekst
+zawierają informacje tego sa mego typu 
+***rekord**-zbiór wszystkich pól w jednej tabeli 
+***język SQL**-język zapytań stosowanych w bazach danych
+ 
+**PROGRAMY**
+*Microsoft Access
+*Libre Office Base
+*SQLiteStudio
+
+**niespojność bazy danych** -pojawia się wtedy gdy pojawia sie za dużo informacji robi sie niepotrzebny chaos,dlatego informacje nie powinny sie powtarzać.
+**relacyjna baza danych-**składa sie z wielu tabel połączonych relacjami.
+
+**Systemy/silnik baz danych**  -oprogramowanie bądź system informatyczny służący do zarządzania bazą danych. System zarządzania bazą danych może być również serwerem bazy danych (SBD) lub też może udostępniać bazę danych lokalnie – na określonym komputerze.
+	DB2
+	Informix Dynamic Server
+	Firebird
+	MariaDB
+	Microsoft SQL Server
+	MySQL
+	Oracle
+	//PostgreSQL//
+	**SQLite**
+TYPY DANYCH
+Liczbowe
+integer-liczby całkowite
+float-lub real-liczby zmiennoprzecinkowe
+DATA I CZAS
+Date-data,np w formacie ISO, np.2015-01-06
