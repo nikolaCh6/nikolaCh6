@@ -10,7 +10,7 @@ function draw() {
   fill(51);
   ellipse(100, 50, 80, 80);
 
-  strokeWeight(2);
+  strokeWeight(4);
   stroke ("yellow");
   fill(57);
   ellipse(60, 50, 80, 80);
