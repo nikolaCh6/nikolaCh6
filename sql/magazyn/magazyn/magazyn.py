@@ -17,37 +17,41 @@ def dane_z_pliku(nazwa_pliku):
 
 def kwerenda_1(cur):
     cur.execute("""
-        SELECT * FROM fakeapps
+        SELECT * FROM fake_apps
     """)
 
-    """
-    SELECT name, downloads FROM fakeapps WHERE downloads > (SELECT AVG(downloads) FROM fakeapps);
-    SELECT name, downloads FROM fakeapps WHERE downloads > (SELECT AVG(downloads) FROM fakeapps) ORDER BY downloads DESC LIMIT 5;
-    SELECT COUNT(name) FROM fakeapps WHERE downloads > (SELECT AVG(downloads) FROM fakeapps);
-    SELECT category, SUM(downloads) AS suma_pobran FROM fakeapps GROUP BY category ORDER BY suma_pobran DESC;
-
-
-    """
-    wyniki = cur.fetchall()  # pobranie wszystkich rekordów na raz
-    for row in wyniki:  # odczytywanie kolejnych rekordów
+    wyniki = cur.fetchall()  # pobranie wszystkich rekordów
+    for row in wyniki:  # odczytywanie rekordów
         print(tuple(row))  # drukowanie pól
 
 
 def main(args):
-    con = sqlite3.connect('fakeapps.db')  # połączenie z bazą
+    con = sqlite3.connect('magazyn.db')  # połączenie z bazą
     cur = con.cursor()  # utworzenie kursora
 
     # utworzenie tabeli w bazie
-    with open('fakeapps.sql', 'r') as plik:
+    with open('magazyn.sql', 'r') as plik:
         cur.executescript(plik.read())
 
     # dodawanie danych do bazy
-    dane = dane_z_pliku('fake_apps.txt')
-    dane.pop(0)  # usuń pierwszy rekord z listy
-    cur.executemany('INSERT INTO fakeapps VALUES(?, ?, ?, ?, ?)', dane)
+    #dane = dane_z_pliku('dane_customers.txt')
+    #print(dane)
+    #dane.pop(0)  # usuń pierwszy rekord z listy
+    #cur.executemany('INSERT INTO dane_customer VALUES(?, ?, ?)', dane)
 
-    # przykład zapytania (kwerendy)
-    kwerenda_1(cur)
+# dodawanie danych do bazy
+    dane = dane_z_pliku('dane_orders.txt')
+    print(dane)
+    dane.pop(0)  # usuń pierwszy rekord z listy
+    cur.executemany('INSERT INTO dane_orders VALUES(?, ?, ?, ?)', dane)
+    
+# dodawanie danych do bazy
+    dane = dane_z_pliku('dane_subscriptions.txt')
+    print(dane)
+    dane.pop(0)  # usuń pierwszy rekord z listy
+    cur.executemany('INSERT INTO dane_subscriptions VALUES(?, ?, ?, ?)', dane)
+
+    #kwerenda_1(cur)
 
     con.commit()  # zatwierdzenie zmian w bazie
     con.close()  # zamknięcie połączenia z bazą
@@ -56,4 +60,4 @@ def main(args):
 
 if __name__ == '__main__':
     import sys
-    sys.exit(main(sys.argv))
+sys.exit(main(sys.argv))
