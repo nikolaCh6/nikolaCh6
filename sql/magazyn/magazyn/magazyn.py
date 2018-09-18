@@ -34,10 +34,10 @@ def main(args):
         cur.executescript(plik.read())
 
     # dodawanie danych do bazy
-    #dane = dane_z_pliku('dane_customers.txt')
-    #print(dane)
-    #dane.pop(0)  # usuń pierwszy rekord z listy
-    #cur.executemany('INSERT INTO dane_customer VALUES(?, ?, ?)', dane)
+    dane = dane_z_pliku('dane_customers.txt')
+    print(dane)
+    dane.pop(0)  # usuń pierwszy rekord z listy
+    cur.executemany('INSERT INTO dane_customer VALUES(?, ?, ?)', dane)
 
 # dodawanie danych do bazy
     dane = dane_z_pliku('dane_orders.txt')
