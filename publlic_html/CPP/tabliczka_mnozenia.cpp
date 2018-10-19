@@ -1,5 +1,5 @@
 /*
- * bez nazwy.cpp
+ * tabliczka_mnozenia.cpp
  */
 
 #include <iostream>
