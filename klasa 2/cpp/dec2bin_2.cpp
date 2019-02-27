@@ -59,7 +59,11 @@ int main(int argc, char **argv)
     cout << "Wynik: ";
     while (i > -1) 
     {
-       if(podstawa)
+        if(podstawa > 10)
+            cout << (char)cyfry[tab[i]};
+        else
+            cout << tab[i];
+        i--;
     } 
     cout << endl;
     bin2dec(tab);

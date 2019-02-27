@@ -1,0 +1,19 @@
+The rain in Spain falls mainly on the plain.             = 44 bajty
+The rain<3,3>Sp<9,4>falls m<20,3>ly on t<34,3>pl<35,3> = 34 bajty
+
+<x, y>
+34, 4
+6 bitów, 2 bity = 8 bitów
+32-16-8-4-2-1
+1-0-0-0-1-0
+
+Moją pasją są kompresje i ich komputerowe werjse.           = 52 bajty
+Moją pas<6,3>s<3,2>kompresje i<2,2>ch<16,5>uterowe we<25,3> = 38 bajty 
+
+x max = 25  5 bitów
+y max = 5   3 bity          razem: 8 bitów
+
+<6,3> binarnie 00110+011
+
+<18,2> binarnie 10010+010
+
