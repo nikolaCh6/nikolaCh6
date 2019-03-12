@@ -1,0 +1,69 @@
+Pamięć:
+
+RAM - pamięć operacyjna ulotna 
+RandomAccessMemory - pamięć operacyjna jest ulotna,
+pamięć o swobodnym dostępie
+System operacyjny, programy użytkowe, dane
+
+Pamięć stała: HDD, SSD, CD/DVD, taśmy, dyskietki
+
+Pamięć sekwencyjna 
+
+Read0nlyMemory, swobodny dostęp
+ROM - pamięć nieulotna
+BIOS - BasicInputOutputSystem (współczeny BIOS - UEFI)
+Firmware - software zapisany w ROM 
+ASEMBLER 
+
+CPU: ALU, REJESTRY, 64-bitowe - podstawowy rozmiar słowa (word) procesora
+4-bitowe
+
+pamięć, urządzenia wejscia wyjscia muszą być połączone magistralą (szyną)
+magistrala steruəąca składa sie z szyny danych 
+wyrózniamy magistrale szeregowe i równoległe
+
+taktowanie- sposób sterowania pracą układów cyfrowych 
+
+adresy danych, Dane
+STOS
+
+INPUT: klawiatura, mysz, mikrofon, joystick, karty perforowane
+tablet graficzny + pióro, kierownica, czujnik GPS, kamera, skaner
+
+OUTUT: drukarka, monitor, głośniki, słuchawki
+
+I/O: HDD, SSD, CD/DVD, ekran dotykowy, interfejs sieciowy,
+
+
+SYSTEM OPERACYJNY!
+
+-interfejs:
+    -tekstowe
+        np; terminal
+            powłoka (shell): BASH (Linux), CMD, PowerShell
+    -graficzne
+        np; Windows: okno (przyciski sterujące, mobilność, skalowalność, menu: polecenia)
+            Linux: XORG-serwer graficzny, Gnome, KDE, XFCE
+
+Jądro systemu operacyjnego:
+-obsługa urządzeń, sterowniki urządzeń
+-planista: wielozadaniowość, wywłaszczenie
+
+kolejkowanie żądań
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
