@@ -1,0 +1,2 @@
+[08-Mar-2019 07:20:16 Europe/Warsaw] PHP Notice:  Undefined variable: tytul in /home/kl2ag1/nikolaCh6/php-master/inc/template.php on line 10
+[08-Mar-2019 07:21:15 Europe/Warsaw] PHP Notice:  Undefined variable: tytul in /home/kl2ag1/nikolaCh6/php-master/inc/template.php on line 10
