@@ -39,7 +39,7 @@
 
     <header class="bg-primary text-white">
       <div class="container text-center">
-        <h1>Aplikacja PHP</h1>
+        <h1>Alikacja PHP</h1>
         <p class="lead">Moja pierwsza aplikacja w PHP</p>
       </div>
     </header>

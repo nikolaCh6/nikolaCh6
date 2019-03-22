@@ -1,4 +1,4 @@
-Pamięć:
+Pamięć!!!:
 
 RAM - pamięć operacyjna ulotna 
 RandomAccessMemory - pamięć operacyjna jest ulotna,
@@ -35,7 +35,7 @@ OUTUT: drukarka, monitor, głośniki, słuchawki
 I/O: HDD, SSD, CD/DVD, ekran dotykowy, interfejs sieciowy,
 
 
-SYSTEM OPERACYJNY!
+SYSTEM OPERACYJNY!!!:
 
 -interfejs:
     -tekstowe
@@ -51,7 +51,41 @@ Jądro systemu operacyjnego:
 
 kolejkowanie żądań
 
-        
+Sieć!!!:
+
+LAN (Local Area Network)
+Ethernet, skrętka, rj45, switch, 
+Adres MAC: 00:0A:E6:3E:FD:E1
+
+Serwer DHCP
+
+router:
+interfejs wewnętrzny (LAN) 192.168.3.22
+interfejs zewnętrzny (WAN - Wide Area Network)
+
+Adres IP:
+Adresy lokalne
+192.168.3.22
+172.16.0.0
+10.0.0.0
+
+Adres publiczny: 79.185.91.32 - 32 bity
+
+Serwery DNS (Domain Name System)
+wp.pl 212.77.98.9
+lo1.sandomierz.pl
+www.github.com
+
+LAN - local area network
+komputer (deskopt, laptop(eth, wifi)),
+smarfony, drukarki
+
+SWITH (przełącznik) - interfejsy wewnętrzne
+ROUTER (SWITH + ROUTER) -
+interfejs wewnętrzny + interfejs zewnętrzny (DSL, WAN)
+łączy sieci, routing (trasowanie)
+
+protokół HTTP:8000, HTTP:5000
 
 
 
@@ -63,6 +97,22 @@ kolejkowanie żądań
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 

@@ -1,4 +1,5 @@
 <?php
+
 $pages = array(
     'witam' => 'Witamy',
     'baza' => 'Baza',
@@ -25,15 +26,15 @@ function get_page_content($id) {
 
 function get_koms() {
     global $kom;
-    //foreach ($tb as $k) echo '<p>'.$k.'</p>'; 
-    foreach ($kom as $k) echo '<p class="lead"+>'.$k.'</p>';       
+    // foreach ($tb as $k) echo '<p>'.$k.'</p>';
+    foreach ($kom as $k) echo '<p class="lead">'.$k.'</p>';
 }
 
 function clrtxt(&$el, $maxdl=30) {
     if (is_array($el)) {
         return array_map('clrtxt', $el);
     } else {
-        $el = trim($el); 
+        $el = trim($el);
         $el = substr($el, 0, $maxdl);
         if (get_magic_quotes_gpc()) $el = stripslashes($el);
         $el = htmlspecialchars($el, ENT_QUOTES);
