@@ -1,0 +1,45 @@
+/* Twoje style */
+
+/*kolory do użycia:
+color: rgb(68, 68, 68); szary  #222; <= nowy
+color: rgb(238, 55, 51); czerwony
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+a {
+  color: rgb(238, 55, 51);
+}
+a:link{color:rgb(238, 55, 51)}
+a:visited{color:rgb(238, 55, 51)}
+a:hover{color:rgb(92, 27, 26);text-decoration:none}
+
+.container {
+  font-family: 'Slabo 27px', serif;
+  font-size: 25px;
+}
+
+.navbar{
+  background-color: rgb(34, 34, 34);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav-item {
+  font-size: 25px;
+  font-weight: bold;
+}
+.ol {
+    position: central;
+    left: 100px;
+    top: 150px;
+}
+.img {
+    text-align: center
+}

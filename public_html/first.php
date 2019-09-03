@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pl">
-<!-- first.php -->
+<!--
+   first.php
+-->
+
 <head>
     <meta charset="utf-8" />
-    <title>Test PHP</title>
-<?php
-
-?>
+    <title>Strona główna</title>
 </head>
 
 <body>

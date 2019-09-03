@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Fri, 24 May 2019 08:38:23 +0200</pubDate><title><![CDATA[O nas]]></title><url><![CDATA[onas]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[O nas]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;Tutaj jest treść strony&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;liste&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><menuOrder><![CDATA[2]]></menuOrder></item>

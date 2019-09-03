@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
   <head>
 
     <meta charset="utf-8">
@@ -7,14 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo $tytul; ?></title>
+    <title><?php echo $tytol; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/filename='style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="static/css/scrolling-nav.css" rel="stylesheet">
-    <link href="static/css/style.css" rel="stylesheet">
 
   </head>
 
@@ -29,27 +30,27 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+
             <?php
                 get_menu($id);
             ?>
+
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="bg-primary text-white">
+    <header class="bg-info text-white">
       <div class="container text-center">
-        <h1>Alikacja PHP</h1>
-        <p class="lead">Moja pierwsza aplikacja w PHP</p>
+        <h1>Jakiś tekst</h1>
       </div>
     </header>
 
-    <section id="quiz">
+<section id="quiz">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <?php
-                get_koms();
+           <?php
                 get_page_content($id);
             ?>
           </div>
@@ -58,7 +59,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <footer class="py-3 bg-dark fixed-bottom">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
       </div>
@@ -73,7 +74,7 @@
     <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
+    <script src="static/js/scrolling-nav.js"></script>
 
   </body>
 
