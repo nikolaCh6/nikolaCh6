@@ -1,0 +1,7 @@
+CREATE TABLE uczniowie (
+id_ucz
+imie
+nazwisko
+klasa
+
+);
